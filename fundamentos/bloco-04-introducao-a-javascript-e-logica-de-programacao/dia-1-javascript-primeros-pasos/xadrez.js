@@ -1,7 +1,7 @@
 let pecaDeXadrez; 
 console.log('Escreva o nome de uma peça de xadrez');
-pecaDeXadrez = "REY";
-switch(pecaDeXadrez.toLowerCase()){
+pecaDeXadrez = "REI";
+switch(pecaDeXadrez = pecaDeXadrez.toLowerCase()){
   case 'rei' :
     console.log('Pode mover-se em qualquer direção, porém apenas uma casa por vez.');
     break;
