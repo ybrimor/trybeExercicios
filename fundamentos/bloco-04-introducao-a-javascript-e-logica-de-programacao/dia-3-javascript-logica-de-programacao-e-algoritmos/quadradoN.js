@@ -1,9 +1,9 @@
 let tamanhoLado = 4;
-let linha = [];
 let quadrado = [];
 for (let indexLinha = 0; indexLinha < tamanhoLado; indexLinha +=1) {
+  let linha = [];
   for (let indexColumna = 0; indexColumna < tamanhoLado; indexColumna +=1){
-    linha[indexLinha, indexColumna] = '*';
+       linha.push('*');
   }
 quadrado [indexLinha] = linha;
 }
