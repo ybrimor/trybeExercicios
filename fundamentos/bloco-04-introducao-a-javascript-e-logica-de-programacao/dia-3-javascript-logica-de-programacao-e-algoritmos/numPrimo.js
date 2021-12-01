@@ -1,4 +1,4 @@
-let num = 60;
+let num = 100;
 let numPrimo = [];
 for (let index = 1; index <= num; index += 1){
   let divisores = 2;
