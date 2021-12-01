@@ -1,4 +1,4 @@
-let tamanhoBase = 8;
+let tamanhoBase = 5;
 let triangulo = [];
 for (let indexLinha = 0; indexLinha < tamanhoBase; indexLinha +=1) {
   let linha = [];
