@@ -48,12 +48,7 @@
         - document.getElementsByClassName()
         - document.getElementsByTagName()
  Crie uma função que mude o texto na tag <p> para uma descrição de como você se vê daqui a 2 anos. (Não gaste tempo pensando no texto e sim realizando o exercício)
- 
- 
- 
-
- Crie uma função que exiba o conteúdo de todas as tags <p> no console.
-        */
+         */
 
         function alteraTexto (string) {
             let texto = document.getElementsByTagName('p');
@@ -82,7 +77,7 @@
         }
 
         corrigeTitulo('Exercício 5.1 - JavaScript');
-// Crie uma função que modifique todo o texto da tag <p> para maiúsculo.
+//Crie uma função que modifique todo o texto da tag <p> para maiúsculo.
         function cambioMaiusculas(string){
             let texto = document.getElementsByTagName('p');
             for (let i = 0; i < texto.length; i += 1){
@@ -90,7 +85,14 @@
             } 
         }
         cambioMaiusculas('uppercase');
-        
+//Crie uma função que exiba o conteúdo de todas as tags <p> no console.
+        function exibeConteudoTag(tagName){
+            let texto = document.getElementsByTagName(tagName);
+            for (let i = 0; i < texto.length; i += 1){
+                console.log(texto[i].innerHTML);
+            } 
+        }
+        exibeConteudoTag('p');
     </script>
   </body>
 </html>
