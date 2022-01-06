@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Cadastro de currículo</title>
+</head>
+<body>
+    <form action="" method="get">
+      <fieldset>
+        <legend>Dados Pessoais:</legend>
+        <div>
+          <label for="dado-nome">Nome</label>
+          <input type="text" name="nome" id="dado-nome" maxlength=40 required >
+        </div>
+        <div>
+          <label for="dado-email">e-mail</label>
+          <input type="text" name="email" id="dado-email" maxlength=50 required >
+        </div>
+        <div>
+          
+        </div>
+        <label for="dado-email">CPF</label>
+        <input type="text" name="cpf" id="dado-cpf" maxlength=11 required >
+        <br>
+        <br>
+        <label for="dado-endereco">Endereço</label>
+        <input type="text" name="endereco" id="dado-endereco" maxlength=200 required >
+        <br>
+        <br>
+        <label for="dado-cidade">Cidade</label>
+        <input type="text" name="cidade" id="dado-cidade" maxlength=28 required >
+        <label for="dado-estado">Estado</label>
+        <select name="estado" id="dado-estado"></select>
+
+      </fieldset>
+    </form>
+
+    
+</body>
+<script src="script.js"></script>
+</html>
