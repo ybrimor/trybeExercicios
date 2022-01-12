@@ -1,0 +1,63 @@
+html {
+    box-sizing: border-box;
+    background-color: rgb(212, 240, 240);
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  header {
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    margin: 5 auto;
+    background-color:rgb(166, 230, 230);
+    color:rgb(179, 115, 32);
+  }
+  h1 {
+    font-size: 40px;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 600;
+    color:rgb(179, 115, 32);
+  }
+  .navegacao {
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    list-style: none;
+    justify-content: space-around;
+    margin-top: 05px;
+  }
+  h2 {
+    font-size: 35px;
+    color:rgb(179, 115, 32);
+    font-weight: 450;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+  }
+  li {
+    font-size: 25px;
+    font-weight: 300;
+    text-align: left;
+    list-style: none;
+    color:rgb(104, 66, 16);
+    margin: 0;
+    padding: 5px;
+  }
+  .capitulos {
+    margin: 5px;
+    padding: 5px;
+  }
+p {
+  font-size: 30px;
+  font-weight: 300;
+  text-align: justify;
+  color:rgb(104, 66, 16);
+  margin: 7px;
+}
+#capitulo {
+  text-align: center;
+}
