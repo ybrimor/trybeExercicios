@@ -5,7 +5,6 @@ const resultadoSorteio = (apuesta, resultado) => ((apuesta === resultado) ?  "Pa
 
 const sorteio = (apuesta,resultadoSorteio) => {
     const resultado = Math.round(4*Math.random()+ 1);
-    console.log(resultado);
     return resultadoSorteio(apuesta,resultado);
 }
 console.log(sorteio(2,resultadoSorteio));
