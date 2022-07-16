@@ -1,0 +1,3 @@
+Exercício 6: Qual tipo de relacionamento a tabela country faz com a tabela city?idade
+
+1:N, isto é para cada pais correspondem varias cidades
